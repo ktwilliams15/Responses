@@ -5,6 +5,6 @@
 
 [February 5th](2_5_21.md)
 
-[February 17th](2_17_21.md)
+[February 17th](02_17_21.md)
 
 ## Projects
