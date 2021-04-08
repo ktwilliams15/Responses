@@ -7,4 +7,6 @@
 
 [February 17th](02_17_21.md)
 
+[February 24th](2_24_21.md)
+
 ## Projects
