@@ -16,8 +16,13 @@ Write a one and a half to two-page report on your results and include the follow
 3. An analysis of your model output
 - The model varied in its predictions. Originally, we scaled our data by dividng the price by 100,000 and the square footage by 1000. Doing so improved our model’s efficiency. When the data features included the zip code, the loss decreases originally, but levels out quickly. Without the zip code, there is not much loss in our model. 
 
-- ![Loss w/o Zip](loss_orig.png)
-- ![Loss w/ Zip](loss_zip.png)
+- Loss w/o zip code
+
+![Loss w/o Zip](loss_orig.png)
+
+- Loss w/ zip code
+
+![Loss w/ Zip](loss_zip.png)
 
 4. An analysis of the output that assesses and ranks all homes from best to worst deal
 
