@@ -4,6 +4,9 @@ Write a one and a half to two-page report on your results and include the follow
 
 ![](summary_table.PNG)
 
+![](homes_prices_hist.png)
+- The is histogram goes from the minimum house price to the mean house price. The black line represents the median house price. The mean is at the 75th percentile, this this histogram shows three-fourths of the homes. The rest of the data is spread out from $470,000 to $6,950,000. The range of the data beyond the mean caused problems for our model which I will discuss in detail later.
+
 2. A description of your model architecture
 - The model architecture used stochastic gradient descent as the optimizer and mean squared error as the loss. The model was Sequential and used dense layers. The number of layers varied. Originally, it was three layers consisting of number of beds, number of baths, and square feet. When adding in the zip codes to our model, it increased to 29 layers. This means that there were 26 different values for the zip codes in our data. The target was the price of the home. 
 3. An analysis of your model output
