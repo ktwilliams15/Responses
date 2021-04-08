@@ -10,3 +10,5 @@
 [February 24th](2_24_21.md)
 
 ## Projects
+
+[Project 1](project1.md)
