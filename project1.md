@@ -4,7 +4,7 @@ Write a one and a half to two-page report on your results and include the follow
 
 ![](summary_table.PNG)
 
-![](homes_prices_hist.png)
+
 - The is histogram goes from the minimum house price to the mean house price. The black line represents the median house price. The mean is at the 75th percentile, this this histogram shows three-fourths of the homes. The rest of the data is spread out from $470,000 to $6,950,000. The range of the data beyond the mean caused problems for our model which I will discuss in detail later.
 
 2. A description of your model architecture
