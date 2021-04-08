@@ -1,3 +1,4 @@
+# Project 1 - Charlotte Homes
 Write a one and a half to two-page report on your results and include the following:
 1. A description of the housing data you scraped from Zillow
 - For Project 1, we took data from Zillow. Specifically, I looked at the Charlotte, North Carolina area. We cleaned the data through R and set up a data frame which we converted to a csv file.  The csv file included price of the home, number of beds, number of baths, and the square footage of the home. Later on, we imported the zip codes of the homes as well. In order to add the zip code to our machine learning model, we converted the numeric values into categorical values. After processing our data, there were 384 homes that had a value for these features. The summary statistics for the price of the home, the number of bedrooms, the number of baths, and the square footage is below. 
