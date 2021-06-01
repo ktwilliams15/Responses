@@ -8,10 +8,13 @@ Models 1 through 7 tied for the largest (on average) area under the curve.
 
 Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value? 
 
-Looking at the AUC-ROC curves for models 1 (penalty of .001) through 17 (penalty of .00452), there is no evidence to support the claim that the penalty is eliminating potentially irrelevant predictors. Hence, I chose to use the penalty from model 20 which was .00924 which only decreases the average area under the curve from the top performing models by .02. Looking at the AUC-ROC curves of these graphs, the penalty does seem to work. Specifically, the specicifity of the model improves. However, the sensitivity worsens. 
+Looking at the AUC-ROC curves for models 1 (penalty of .001) through 17 (penalty of .00452), there is no evidence to support the claim that the penalty is eliminating potentially irrelevant predictors. Hence, I chose to use the penalty from model 20 which was .00924 which only decreases the average area under the curve from the top performing models by .02. Looking at the AUC-ROC curves of these graphs, the penalty does seem to work. Specifically, the specicifity of the ROC curves improves. However, the sensitivity worsens. 
 
 Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
 
+- Model 20 ROC plots
+![Model 20](lr_auc20.png)
+The penalized logistic regression model is good at predicting the wealth outcomes of the very wealthy and the very poor. Unfortunately, the model is less successfull at differentiating between upper middle class, middle class, and lower middle class. In particular, the AUC of the middle class is around .5. Essentially, the model is guessing when it comes to this range. 
 
 Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
