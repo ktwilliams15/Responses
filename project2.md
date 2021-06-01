@@ -18,14 +18,18 @@ The penalized logistic regression model is good at predicting the wealth outcome
 
 ### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. 
 
-- A graph of the randomly selected predictors and the minimal node size. 
-![]
+- A graph of the area under the curve for randomly selected predictors and the minimal node size. 
+![](rf_res.png)
 
-1) How did your random forest model fare when compared to the penalized logistic regression? 
+1) How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them. 
 
-2) When comparing the random forest model to the penalized logistic regression model, the AUC-ROC curves of the 
+![](rf_auc.png)
 
-3) Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
+When looking at the random forest model's AUC-ROC graph, it seems that the random forest model performed slightly better than the penalized logistic regression model. The random forest's classification of the wealthy and the poor was about the same as the penalized logistic regression's. However, the random forest model did a better at classifying the upper middle class, middle class, and lower middle class.  
+
+2) Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
+
+![](rf
 
 ### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. 
 
